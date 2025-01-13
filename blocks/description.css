@@ -1,0 +1,38 @@
+.description {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
+  margin: auto;
+}
+.two-columns {
+  width: 175px;
+  color: #2f80ED;
+  display: flex;
+
+}
+.two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+.two-columns__main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.two-columns__paragraph {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+
+}
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
