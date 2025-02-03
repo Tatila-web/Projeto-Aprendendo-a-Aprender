@@ -1,6 +1,6 @@
-# Project 3: Triple Peaks Library
+# Projeto Adicional: Aprendendo a Aprender
 
-The Triple Peaks Library webpage is the third project in the Web developing program at TripleTen. It was created using HTML and CSS, based on a design brief.
+
 
 ## Project features
 
