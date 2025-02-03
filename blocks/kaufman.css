@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  padding-top: 100px;
   position: relative;
   overflow: hidden;
 }
@@ -29,8 +29,22 @@
 }
 .kaufman__triangle {
   position: absolute;
-  width: 660px;
-  height: 636px;
-  right: -124px;
+  width: 900px;
+  height: 800px;
+  right: -224px;
+  bottom: -250px;
 
+}
+.triangle__animation{
+  transform: rotate(20deg);
+  animation: girar 20s linear infinite;
+
+}
+@keyframes girar {
+  from{
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }

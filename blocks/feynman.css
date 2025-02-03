@@ -38,6 +38,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  text-decoration: none;
 }
 .feynman__image {
   position: absolute;

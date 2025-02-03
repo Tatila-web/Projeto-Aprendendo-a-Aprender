@@ -1,49 +1,51 @@
 .header {
+  background-color: #f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 100px;
-  /* Parâmetros para a seção de cabeçalho */
+  margin: 0;
+  overflow: hidden;
 }
 .logo__place_header {
-width: 154px;
-height: 31px;
-position: absolute;
-top: 30px;
-left: 60px;
-z-index: 1;
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  z-index: 1;
 }
 .header__title {
-width: 730px;
-margin-left: 64px;
-line-height: 96px;
-font-size: 102px;
-font-weight: bold;
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
 }
 .header__subtitle {
-width: 388px;
-line-height: 25px;
-font-size: 18px;
-font-weight: normal;
-position: absolute;
-bottom: 30px;
-left: 64px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
 }
 .header__link {
-display: block;
-color: #2f80ed;
-
+  display: block;
+  color: #2f80ed;
 }
 .header__main-ilustration {
-width: 756px;
-height: 608px;
-position: absolute;
-bottom: 0;
-right: 0;
-z-index: 1;
+  width: 756px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
 }
 /* Aqui temos dois exemplos de seletores para lembrá-lo de como
 configurar estilos para elementos*/
@@ -54,4 +56,17 @@ configurar estilos para elementos*/
   position: absolute;
   top: 64px;
   right: 0;
+}
+.square-animation {
+  transform: rotate(-15deg);
+  animation: girar 20s linear infinite;
+
+}
+@keyframes girar {
+  from{
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(345deg);
+  }
 }

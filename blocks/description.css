@@ -3,19 +3,18 @@
   justify-content: space-between;
   width: 80%;
   min-width: 784px;
-  margin: auto;
+  margin: 0 auto;
 }
 .two-columns {
-  width: 175px;
-  color: #2f80ED;
   display: flex;
-
+  padding-top: 100px;
 }
 .two-columns__brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  color: #2f80ED;
 }
 .two-columns__main-text {
   line-height: 34px;
